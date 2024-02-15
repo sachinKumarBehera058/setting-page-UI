@@ -1,0 +1,44 @@
+.setting-page-header-section{
+    /* padding: 0px 6rem; */
+    /* width: 97.375rem; */
+    height: 4.125rem;
+    gap: 1.5rem ;
+}
+
+.setting-page-header-section-container{
+    /* width: 85.375rem; */
+    height: 4.125rem;
+    padding: 0rem 6rem;
+    gap: 1.5rem;
+}
+
+.page-header{
+    height: 4.125rem;
+    gap: 1.25rem;
+}
+
+.page-header-content{
+    height: 4.125rem;
+    gap: 1rem;
+}
+
+.text-and-supporting{
+    gap: 0.25rem;
+}
+
+.display-sm--sb{
+    margin: 5px !important;
+    padding: 0px !important;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    color: #101828;
+}
+
+.image-supporting-text{
+    margin: 5px !important;
+    padding: 0px !important;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
