@@ -1,9 +1,16 @@
 import React from 'react'
 import { Sidebar } from "@attrybtech/attryb-ui";
 import NavbarListItem from './NavbarListItem';
-import icon1 from '../Images/setting-sidebar-logo/Frame1.svg'
-import icon2 from '../Images/setting-sidebar-logo/Content.svg'
-import './DocSidebar.css';
+
+import icon from '../Images/setting-sidebar-logo/main-logo.svg'
+import icon1 from '../Images/setting-sidebar-logo/icon1.svg'
+import icon2 from '../Images/setting-sidebar-logo/icon2.svg'
+import icon3 from '../Images/setting-sidebar-logo/icon3.svg'
+import icon4 from '../Images/setting-sidebar-logo/icon4.svg'
+import icon5 from '../Images/setting-sidebar-logo/icon5.svg'
+import icon6 from '../Images/setting-sidebar-logo/icon6.svg'
+import icon7 from '../Images/setting-sidebar-logo/icon7.svg'
+import icon8 from '../Images/setting-sidebar-logo/icon8.svg'
 import logo1 from '../Images/Navigation-Item-img/user-square.svg';
 import logo2 from '../Images/Navigation-Item-img/bank-note-01.svg';
 import logo3 from '../Images/Navigation-Item-img/globe-06.svg';
@@ -11,6 +18,8 @@ import logo4 from '../Images/Navigation-Item-img/users-edit.svg';
 import logo5 from '../Images/Navigation-Item-img/users-plus.svg';
 import logo6 from '../Images/Navigation-Item-img/user-check-01.svg';
 import logo7 from '../Images/Navigation-Item-img/layout-grid-01.svg';
+
+import './DocSidebar.css';
 
 const DocSidebar = () => {
     const handleSupportCallback = () => {
@@ -31,7 +40,7 @@ const DocSidebar = () => {
             <Sidebar
                 sideBarHeaderData={{
                     sideBarHeaderTitle: "Web Personalization",
-                    sideBarLogo: icon1,
+                    sideBarLogo: icon,
                 }}
 
                 sidebarData={[
@@ -42,7 +51,7 @@ const DocSidebar = () => {
 
                         route: "#",
 
-                        asset: icon2,
+                        asset: icon1,
                     },
 
                     {
@@ -61,16 +70,7 @@ const DocSidebar = () => {
 
                         route: "/segments",
 
-                        asset: icon2,
-                    },
-                    {
-                        _id: "88",
-
-                        title: "Audiences",
-
-                        route: "/audience",
-
-                        asset: icon2,
+                        asset: icon3,
                     },
                     {
                         _id: "4",
@@ -79,7 +79,7 @@ const DocSidebar = () => {
 
                         route: "#",
 
-                        asset: icon2,
+                        asset: icon4,
                     },
 
                     {
@@ -89,7 +89,7 @@ const DocSidebar = () => {
 
                         route: "#",
 
-                        asset: icon2,
+                        asset: icon5,
                     },
 
                     {
@@ -99,7 +99,7 @@ const DocSidebar = () => {
 
                         route: "#",
 
-                        asset: icon2,
+                        asset: icon6,
                     },
 
                     {
@@ -109,7 +109,7 @@ const DocSidebar = () => {
 
                         route: "#",
 
-                        asset: icon2,
+                        asset: icon7,
                     },
 
                     {
@@ -119,7 +119,7 @@ const DocSidebar = () => {
 
                         route: "#",
 
-                        asset: icon2,
+                        asset: icon8,
                     },
                 ]}
                 handleItemOnClick={() => { }}
