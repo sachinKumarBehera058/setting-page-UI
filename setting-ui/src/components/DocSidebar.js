@@ -4,13 +4,13 @@ import NavbarListItem from './NavbarListItem';
 import icon1 from '../Images/setting-sidebar-logo/Frame1.svg'
 import icon2 from '../Images/setting-sidebar-logo/Content.svg'
 import './DocSidebar.css';
-import logo1 from '../Images/user-square.svg';
-import logo2 from '../Images/bank-note-01.svg';
-import logo3 from '../Images/globe-06.svg';
-import logo4 from '../Images/users-edit.svg';
-import logo5 from '../Images/users-plus.svg';
-import logo6 from '../Images/user-check-01.svg';
-import logo7 from '../Images/layout-grid-01.svg';
+import logo1 from '../Images/Navigation-Item-img/user-square.svg';
+import logo2 from '../Images/Navigation-Item-img/bank-note-01.svg';
+import logo3 from '../Images/Navigation-Item-img/globe-06.svg';
+import logo4 from '../Images/Navigation-Item-img/users-edit.svg';
+import logo5 from '../Images/Navigation-Item-img/users-plus.svg';
+import logo6 from '../Images/Navigation-Item-img/user-check-01.svg';
+import logo7 from '../Images/Navigation-Item-img/layout-grid-01.svg';
 
 const DocSidebar = () => {
     const handleSupportCallback = () => {

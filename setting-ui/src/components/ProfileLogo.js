@@ -2,7 +2,7 @@ import React from 'react'
 import './ProfileLogo.css';
 import { Button } from '@attrybtech/attryb-ui'
 
-const ProfileLogo = () => {
+const ProfileLogo = ({ profileLogo }) => {
     const clickHandler = () => console.log("y")
     return (
         <div className="frame-1628">
@@ -10,7 +10,7 @@ const ProfileLogo = () => {
                 <div className="frame-1632">
                     <div className="photo-upload">
                         <div className='photo-upload-text'>
-                            JD
+                            {profileLogo}
                         </div>
                     </div>
                 </div>

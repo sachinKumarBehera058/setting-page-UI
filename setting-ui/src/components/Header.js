@@ -9,7 +9,7 @@ const Header = ({ title, supportingText }) => {
         <div className="page-header">
           <div className="page-header-content">
             <div className="text-and-supporting">
-            <MainHeader title={title} supportingText={supportingText} />
+              <MainHeader title={title} supportingText={supportingText} />
             </div>
           </div>
         </div>

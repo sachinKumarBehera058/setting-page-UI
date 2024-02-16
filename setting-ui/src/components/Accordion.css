@@ -1,0 +1,40 @@
+.Accordion-Frequency-capping1{
+    width: 30rem;
+    height: 5rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    border: 1px solid #D0D5DD;
+    background: #D0D5DD;
+}
+
+.text-support{
+    width: 30rem;
+    height: 5rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    border-bottom: 1px solid #D0D5DD;
+    background: linear-gradient(0deg, #FCFCFD, #FCFCFD),
+    linear-gradient(0deg, #D0D5DD, #D0D5DD);
+    padding: 1rem 1.5rem;
+}
+
+.frame-1190{
+    width: 27rem;
+    height: 3rem;
+}
+
+.frame-1190-text{
+    height: 1.75rem;
+    width: 27rem;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #101828;
+}
+
+.frame-1190-subtext{
+    height: 1.25rem;
+    width: 27rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #475467;
+}

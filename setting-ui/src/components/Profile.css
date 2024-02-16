@@ -1,29 +1,14 @@
-.frame-1620{
+.frame-1620 {
     padding: 0px 6rem;
     gap: 3rem;
     margin-top: 2rem;
 }
 
-.frame-1610{
+.frame-1610 {
     gap: 1rem;
 }
 
-.frame-1619{
+.frame-1619 {
     gap: 1.5rem;
-}
-
-.frame-1621{
-    height: 2.3125rem;
-    padding-left: 0.3125rem;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-.frame-1621-text{
-    height: 2.3125rem;
-    font-weight: 600;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    color: #1D2939;
 }
 

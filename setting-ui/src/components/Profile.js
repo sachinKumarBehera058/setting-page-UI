@@ -9,10 +9,11 @@ const Profile = () => {
             <div className="frame-1610">
                 <div className="frame-1621">
                     <div className='frame-1621-text'>My Profile</div>
+                    <div className='divider'></div>
                 </div>
                 <div className="frame-1607">
-                    <ProfileLogo/>
-                    <AccountSecurity/>
+                    <ProfileLogo profileLogo={'JD'} />
+                    <AccountSecurity />
                 </div>
             </div>
             <div className="frame-1619">

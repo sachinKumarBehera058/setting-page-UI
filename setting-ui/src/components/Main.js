@@ -13,6 +13,7 @@ const Main = () => {
                 supportingText="Update your Personal details and privacy preferences"
             />
             <Profile />
+            
         </div>
     )
 }

@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0.25rem 0.3125rem;
+    margin-bottom: 0.5rem;
 }
 
 .update-container-text {
@@ -25,13 +26,13 @@
     line-height: 0.875rem;
 }
 
-#btn-change{
-    width: 8rem;
+#btn-change {
+    /* width: 8rem; */
     height: 2.5rem;
     border-radius: 0.25rem;
     padding: 0.625rem 1rem;
     border: 1px solid #D0D5DD;
     box-shadow: 0px 1px 2px 0px #1018280D;
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
-    linear-gradient(0deg, #D0D5DD, #D0D5DD);
+        linear-gradient(0deg, #D0D5DD, #D0D5DD);
 }
