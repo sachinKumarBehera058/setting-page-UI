@@ -7,14 +7,12 @@ import {
     AlertPopupFooter,
     Button,
     useModal,
-    Input,
 } from '@attrybtech/attryb-ui'
 
-const UpdateDetails = ({ text, subtext, head, btn }) => {
+const UpdateDetails = ({ text, subtext, head, btn,compo}) => {
     const { modalState, modalRef, exitModal, showModal } = useModal()
     const [value, setValue] = useState("");
     console.log(value);
-
     function modalOkayHandler() {
         console.log("Accepted");
         setValue("");
@@ -51,20 +49,8 @@ const UpdateDetails = ({ text, subtext, head, btn }) => {
                             onBackdropClick={modalCancelHandler}>
                             <AlertPopupHeader>{btn}</AlertPopupHeader>
                             <AlertPopupBody>
-                                <div>
-                                    <div>
-                                        <div>{head}</div>
-                                        <Input
-                                            state={"default"}
-                                            placeholder={"Lorem is ipsum..."}
-                                            preFilledValue={value}
-                                            // maxCharsLimit={maxChars}
-                                            onChange={(event) => {
-                                                setValue(event.target.value)
-                                            }}
-                                        />
-                                    </div>
-                                </div>
+                                <div>{head}</div>
+                               <div >{compo}</div>  
                             </AlertPopupBody>
                             <AlertPopupFooter>
                                 <Button onClick={modalCancelHandler} variant="link">

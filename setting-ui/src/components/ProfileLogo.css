@@ -69,6 +69,5 @@
     border: 1px solid #D0D5DD;
     box-shadow: 0px 1px 2px 0px #1018280D;
     margin-top: 1rem;
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
-        linear-gradient(0deg, #D0D5DD, #D0D5DD);
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, #D0D5DD, #D0D5DD);
 }
