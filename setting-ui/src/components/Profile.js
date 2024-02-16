@@ -5,18 +5,18 @@ import AccountSecurity from './AccountSecurity'
 
 const Profile = () => {
     return (
-        <div className='frame-1620'>
-            <div className="frame-1610">
-                <div className="frame-1621">
-                    <div className='frame-1621-text'>My Profile</div>
-                    <div className='divider'></div>
+        <div className='Profile-section'>
+            <div className="Profile-section-div">
+                <div className="Profile-section-div-heading">
+                    <div className='Profile-section-div-heading-text'>My Profile</div>
+                    <div className='divider-line'></div>
                 </div>
-                <div className="frame-1607">
+                <div className="Profile-section-div-logo">
                     <ProfileLogo profileLogo={'JD'} />
                     <AccountSecurity />
                 </div>
             </div>
-            <div className="frame-1619">
+            <div className="Profile-section-input">
 
             </div>
         </div>

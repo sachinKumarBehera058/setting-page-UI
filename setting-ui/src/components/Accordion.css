@@ -16,12 +16,12 @@
     padding: 1rem 1.5rem;
 }
 
-.frame-1190{
+.text-support-box{
     width: 27rem;
     height: 3rem;
 }
 
-.frame-1190-text{
+.text-support-box-text{
     height: 1.75rem;
     width: 27rem;
     font-weight: 600;
@@ -30,7 +30,7 @@
     color: #101828;
 }
 
-.frame-1190-subtext{
+.text-support-box-subtext{
     height: 1.25rem;
     width: 27rem;
     font-weight: 400;

@@ -5,11 +5,11 @@ const Accordion = ({text,subtext}) => {
   return (
     <div className='Accordion-Frequency-capping1'>
         <div className='text-support'>
-            <div className="frame-1190">
-                <div className='frame-1190-text'>
+            <div className="text-support-box">
+                <div className='text-support-box-text'>
                 {text}
                 </div>
-                <div className="frame-1190-subtext">
+                <div className="text-support-box-subtext">
                 {subtext}
                 </div>
             </div>
