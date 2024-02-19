@@ -36,7 +36,7 @@ const DocSidebar = () => {
         { logo: logo7, title: 'Page Structure' },
     ];
     return (
-        <div className='DocSidebar'>
+        <div className='doc-sidebar'>
             <Sidebar
                 sideBarHeaderData={{
                     sideBarHeaderTitle: "Web Personalization",
@@ -125,7 +125,7 @@ const DocSidebar = () => {
                 handleItemOnClick={() => { }}
                 supportCallback={handleSupportCallback}
             />
-            <div className='Navbar-list-item'>
+            <div className='navbar-list-item'>
                 <div className='navbar-list-item-box'>
                     <div className='navbar-list-item-box-heading'>
                         <h1>Settings</h1>

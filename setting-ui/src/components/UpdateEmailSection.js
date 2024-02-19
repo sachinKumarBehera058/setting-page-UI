@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import React, { useState } from 'react'
 import { Input } from '@attrybtech/attryb-ui'
 import './UpdateEmailSection.css'
 
@@ -9,7 +9,7 @@ const UpdateEmailSection = () => {
         <div className='change-email-lable'>
             Please enter your password
             <div className='change-email-input'>
-            <Input
+                <Input
                     state={"default"}
                     placeholder={"Lorem is ipsum..."}
                     preFilledValue={value}
@@ -19,7 +19,7 @@ const UpdateEmailSection = () => {
                     }}
                 />
             </div>
-            
+
         </div>
     )
 }

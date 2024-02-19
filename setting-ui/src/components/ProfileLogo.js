@@ -5,21 +5,21 @@ import { Button } from '@attrybtech/attryb-ui'
 const ProfileLogo = ({ profileLogo }) => {
     const clickHandler = () => console.log("y")
     return (
-        <div className="frame-1628">
-            <div className="frame-1631">
-                <div className="frame-1632">
+        <div className="profile-icon">
+            <div className="profile-icon-box">
+                <div className="profile-icon-box-div">
                     <div className="photo-upload">
                         <div className='photo-upload-text'>
                             {profileLogo}
                         </div>
                     </div>
                 </div>
-                <div className="frame-1630">
-                    <div className="frame-1630-heading">
+                <div className="profile-icon-box-content">
+                    <div className="profile-icon-box-content-heading">
                         Upload your profile photo
                     </div>
-                    <div className="frame-1633">
-                        <div className='frame-1633-text'>
+                    <div className="profile-icon-box-content-details">
+                        <div className='profile-icon-box-content-details-text'>
                             This helps your teammates recognise you in our app
                         </div>
                         <Button id="btn-up" variant="solid" colorScheme="secondary" onClick={clickHandler}>

@@ -1,4 +1,4 @@
-.DocSidebar {
+.doc-sidebar {
     /* width: 22.625rem; */
     display: flex;
     /* border-right: 1px solid #EAECF0; */
@@ -9,7 +9,7 @@
     padding-top: 1.2rem;
 }
 
-.Navbar-list-item {
+.navbar-list-item {
     width: 17.625rem;
 }
 

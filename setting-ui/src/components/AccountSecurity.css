@@ -1,21 +1,21 @@
-.Profile-section-input {
+.profile-section-input {
     margin-top: 3rem;
     height: 10.8rem;
     gap: 1.5rem;
 }
 
-.Profile-section-input-box {
+.profile-section-input-box {
     gap: 1rem;
 }
 
-.Profile-section-div-heading {
+.profile-section-div-heading {
     height: 2.3125rem;
     padding-left: 0.3125rem;
     gap: 0.5rem;
     margin-bottom: 1rem;
 }
 
-.Profile-section-div-heading-text {
+.profile-section-div-heading-text {
     height: 2.3125rem;
     font-weight: 600;
     font-size: 1.125rem;

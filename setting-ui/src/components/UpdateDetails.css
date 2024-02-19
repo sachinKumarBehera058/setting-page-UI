@@ -36,3 +36,7 @@
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
         linear-gradient(0deg, #D0D5DD, #D0D5DD);
 }
+
+.dark{
+    font-weight: 600;
+}

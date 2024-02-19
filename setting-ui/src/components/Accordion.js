@@ -3,7 +3,7 @@ import './Accordion.css';
 
 const Accordion = ({text,subtext}) => {
   return (
-    <div className='Accordion-Frequency-capping1'>
+    <div className='accordion-frequency-capping1'>
         <div className='text-support'>
             <div className="text-support-box">
                 <div className='text-support-box-text'>
