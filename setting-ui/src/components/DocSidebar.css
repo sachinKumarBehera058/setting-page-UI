@@ -10,15 +10,12 @@
 }
 
 .navbar-list-item {
-    width: 17.625rem;
-}
-
-.navbar-list-item-box {
-    height: 30.375rem;
+    height: 94px;
     width: 17.625rem;
     padding: 0rem 1rem;
     gap: 1rem;
 }
+
 
 .navbar-list-item-box-heading {
     width: 7.5rem;
@@ -27,12 +24,9 @@
     gap: 0.5rem;
 }
 
-.navbar-list-item-box-heading h1 {
+.navbar-list-item-box-heading-text {
     width: 6rem;
     height: 2rem;
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 2rem;
     color: #101828;
 }
 

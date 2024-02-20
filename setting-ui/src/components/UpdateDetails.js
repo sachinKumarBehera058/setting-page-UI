@@ -29,10 +29,10 @@ const UpdateDetails = ({ text, subtext, head, btn,compo}) => {
     return (
         <div className='update-container'>
             <div className='update-container-text'>
-                <div className="update-container-text-heading">
+                <div className="update-container-text-heading text-sm--md">
                     {text}
                 </div>
-                <div className="update-container-text-subheading">
+                <div className="update-container-text-subheading text-sm">
                     {subtext}
                 </div>
             </div>

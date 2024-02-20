@@ -15,14 +15,11 @@
     /* background-color: #F9FAFB; */
 }
 
-.navbar-list-item-box-content-info img {
+.navbar-list-item-box-content-info-img {
     height: 1.5rem;
     width: 1.5rem;
 }
 
-.navbar-list-item-box-content-info div {
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5rem;
+.navbar-list-item-box-content-info-text {
     color: #101828;
 }

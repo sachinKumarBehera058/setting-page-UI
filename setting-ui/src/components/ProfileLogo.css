@@ -26,10 +26,10 @@
 
 .photo-upload-text {
     font-weight: 600;
-    width: 6.75rem;
+    /* width: 6.75rem; */
     font-size: 3rem;
     line-height: 3.625;
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
     color: #475467;
 }
 
@@ -40,9 +40,6 @@
 
 .profile-icon-box-content-heading {
     height: 1.5rem;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.5rem;
     color: #1D2939;
 }
 
@@ -54,9 +51,6 @@
 
 .profile-icon-box-content-details-text {
     height: 1.25rem;
-    font-weight: 400;
-    line-height: 1.25rem;
-    font-size: 0.875rem;
     color: #344054;
     padding-bottom: 1rem;
 }

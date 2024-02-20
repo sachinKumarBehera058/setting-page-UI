@@ -13,7 +13,7 @@ const AccountSecurity = () => {
         <div className='profile-section-input'>
             <div className="profile-section-input-box">
                 <div className="profile-section-div-heading">
-                    <div className='profile-section-div-heading-text'>Account Security</div>
+                    <div className='profile-section-div-heading-text text-lg--sb'>Account Security</div>
                     <div className="divider-line"></div>
                 </div>
                 <div className="update-details">

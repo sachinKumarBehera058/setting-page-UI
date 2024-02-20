@@ -29,16 +29,16 @@
 .display-sm--sb {
     margin: 5px !important;
     padding: 0px !important;
-    font-weight: 600;
+    /* font-weight: 600;
     font-size: 1.875rem;
-    line-height: 2.375rem;
+    line-height: 2.375rem; */
     color: #101828;
 }
 
 .image-supporting-text {
     margin: 5px !important;
     padding: 0px !important;
-    font-weight: 400;
+    /* font-weight: 400;
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.5rem; */
 }

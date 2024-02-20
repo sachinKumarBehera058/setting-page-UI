@@ -128,7 +128,7 @@ const DocSidebar = () => {
             <div className='navbar-list-item'>
                 <div className='navbar-list-item-box'>
                     <div className='navbar-list-item-box-heading'>
-                        <h1>Settings</h1>
+                        <div className='navbar-list-item-box-heading-text display-xs--md'>Settings</div>
                     </div>
                     <div className='navbar-list-item-box-content'>
                         {navbarItems.map((item, index) => (

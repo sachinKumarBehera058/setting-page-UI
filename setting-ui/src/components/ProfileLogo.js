@@ -15,11 +15,11 @@ const ProfileLogo = ({ profileLogo }) => {
                     </div>
                 </div>
                 <div className="profile-icon-box-content">
-                    <div className="profile-icon-box-content-heading">
+                    <div className="profile-icon-box-content-heading text-lg--sb">
                         Upload your profile photo
                     </div>
                     <div className="profile-icon-box-content-details">
-                        <div className='profile-icon-box-content-details-text'>
+                        <div className='profile-icon-box-content-details-text text-sm'>
                             This helps your teammates recognise you in our app
                         </div>
                         <Button id="btn-up" variant="solid" colorScheme="secondary" onClick={clickHandler}>

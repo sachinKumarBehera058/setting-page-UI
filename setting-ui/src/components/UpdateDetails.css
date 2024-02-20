@@ -12,18 +12,12 @@
 }
 
 .update-container-text-heading {
-    font-weight: 500;
-    font-size: 0.875rem;
     color: #344054;
-    line-height: 0.875rem;
     margin-bottom: 0.25rem;
 }
 
 .update-container-text-subheading {
-    font-weight: 400;
-    font-size: 0.875rem;
     color: #667085;
-    line-height: 0.875rem;
 }
 
 #btn-change {
