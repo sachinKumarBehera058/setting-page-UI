@@ -9,7 +9,7 @@
     padding-top: 1.2rem;
 }
 
-.navbar-list-item {
+.sidebar-list-item {
     height: 94px;
     width: 17.625rem;
     padding: 0rem 1rem;
@@ -17,20 +17,20 @@
 }
 
 
-.navbar-list-item-box-heading {
+.sidebar-list-item-box-heading {
     width: 7.5rem;
     height: 5.875rem;
     padding: 1.375rem 0.75rem;
     gap: 0.5rem;
 }
 
-.navbar-list-item-box-heading-text {
+.sidebar-list-item-box-heading-text {
     width: 6rem;
     height: 2rem;
     color: #101828;
 }
 
-.navbar-list-item-box-content {
+.sidebar-list-item-box-content {
     width: 15.625rem;
     height: 23.5rem;
     gap: 0.5rem;

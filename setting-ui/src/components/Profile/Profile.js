@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Profile.css"
-import ProfileLogo from './ProfileLogo'
-import AccountSecurity from './AccountSecurity'
+import ProfileLogo from '../ProfileLogo/ProfileLogo'
+import AccountSecurity from '../AccountSecurity/AccountSecurity'
 
 const Profile = () => {
     return (

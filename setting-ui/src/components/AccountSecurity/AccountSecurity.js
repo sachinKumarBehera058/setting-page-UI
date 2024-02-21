@@ -1,8 +1,9 @@
 import React from 'react'
-import UpdateDetails from './UpdateDetails'
+import UpdateDetails from '../UpdateDetails/UpdateDetails'
+import UpdateEmailSection from '../UpdateEmailSection/UpdateEmailSection'
+import UpdatePasswordSection from '../UpdatePasswordSection/UpdatePasswordSection'
+
 import './AccountSecurity.css'
-import UpdateEmailSection from './UpdateEmailSection'
-import UpdatePasswordSection from './UpdatePasswordSection'
 
 const AccountSecurity = () => {
     const UpdateInfo = [
