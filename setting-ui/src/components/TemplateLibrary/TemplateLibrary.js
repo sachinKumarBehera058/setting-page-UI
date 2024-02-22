@@ -4,44 +4,6 @@ import SearchBarComponent from '../SearchBarComponent/SearchBarComponent';
 import "./TemplateLibrary.css"
 import moment from"moment";
 
-const AggregateCampaignsDropdown = [
-    {
-        _id: 1,
-        value: "Sample Option 1",
-        callbackfunction: (event) => {
-            event.stopPropagation();
-            // Function implementation goes here
-            console.log("You Clicked on Sample option 1");
-        },
-    },
-    {
-        _id: 2,
-        value: "Sample Option 2",
-        callbackfunction: (event) => {
-            event.stopPropagation();
-            // Function implementation goes here
-            console.log("You Clicked on Sample option 2");
-        },
-    },
-    {
-        _id: 3,
-        value: "Sample Option 3",
-        callbackfunction: (event) => {
-            event.stopPropagation();
-            // Function implementation goes here
-            console.log("You Clicked on Sample option 3");
-        },
-    },
-    {
-        _id: 4,
-        value: "Sample Option 4",
-        callbackfunction: (event) => {
-            event.stopPropagation();
-            // Function implementation goes here
-            console.log("You Clicked on Sample option 4");
-        },
-    },
-];
 
 const columns = [
     {
@@ -287,7 +249,7 @@ const TemplateLibrary = () => {
                 <div className="right-container--wrapper">
                     <SearchBarComponent placeholder={"Search for Use Case"} isOpenInit={false} />
                     <Button variant="solid" colorScheme="secondary">
-                        <img src="/attryb-ui/assets/icons/loader/filter-linesicon.svg" />
+                        <img src="/attryb-ui/assets/icons/loader/filter-linesicon.svg" alt='filter-icon' />
                         Filters
                     </Button>
                 </div>
