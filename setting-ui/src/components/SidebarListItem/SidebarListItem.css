@@ -15,11 +15,11 @@
     /* background-color: #F9FAFB; */
 }
 
-.sidebar-list-item-box-content-info-img {
+.sidebar-list-item-box-content-info-innerbox-img {
     height: 1.5rem;
     width: 1.5rem;
 }
 
-.sidebar-list-item-box-content-info-text {
+.sidebar-list-item-box-content-info-innerbox-text {
     color: #101828;
 }

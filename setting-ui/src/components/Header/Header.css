@@ -8,7 +8,7 @@
 .setting-page-header-section-container {
     /* width: 85.375rem; */
     height: 4.125rem;
-    padding: 0rem 6rem;
+    /* padding: 0rem 6rem; */
     gap: 1.5rem;
 }
 
@@ -26,19 +26,19 @@
     gap: 0.25rem;
 }
 
-.display-sm--sb {
-    margin: 5px !important;
+/* .display-sm--sb {
+     margin: 5px !important;
     padding: 0px !important;
-    /* font-weight: 600;
-    font-size: 1.875rem;
-    line-height: 2.375rem; */
     color: #101828;
-}
+} */
 
 .image-supporting-text {
-    margin: 5px !important;
+    margin: 0px !important;
     padding: 0px !important;
-    /* font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5rem; */
+
+}
+.image-text{
+    margin:  0px !important;
+    padding: 0px !important;
+    color: #101828;
 }

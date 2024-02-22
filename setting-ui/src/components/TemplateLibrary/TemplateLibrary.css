@@ -1,0 +1,23 @@
+.table-parent{
+    width : 100%;
+    gap: 24px;
+    border: 1px solid #EAECF0;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    border-radius: 12px, 12px, 0px, 0px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.top-functionality--wrapper{
+    border-bottom: 1px solid #EAECF0;
+}
+
+.table-row-wrapper td{
+    width: 20% !important;
+    max-width: unset !important;
+}
+
+.sorting-disable{
+    width: 20% !important;
+    max-width: unset !important;
+    /* text-align: center; */
+}
