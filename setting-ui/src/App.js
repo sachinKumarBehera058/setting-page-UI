@@ -1,5 +1,4 @@
 import './App.css';
-import Main from './components/Main/Main';
 import DocSidebar from './components/DocSidebar/DocSidebar';
 import TemplateContainer from './components/TemplateContainer/TemplateContainer';
 

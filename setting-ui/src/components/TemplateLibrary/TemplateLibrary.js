@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Table, HTMLTableCell, NumFormatter, Badge, Button } from "@attrybtech/attryb-ui"
+import { Table, HTMLTableCell, Badge, Button } from "@attrybtech/attryb-ui"
 import SearchBarComponent from '../SearchBarComponent/SearchBarComponent'; 
 import "./TemplateLibrary.css"
 import moment from"moment";
