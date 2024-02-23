@@ -83,7 +83,7 @@ const data = [
             icon: "/attryb-ui/assets/icons/table/use-case-icons/Recently viewed icon.svg",
             header: "Mother's Day",
         },
-        createdAt: moment().format('lll'),
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
         flaggedAt : "-",
     },
     {
@@ -94,7 +94,7 @@ const data = [
             icon: "/attryb-ui/assets/icons/table/use-case-icons/Free shipping banner icon.svg",
             header: "Demo1",
         },
-        createdAt: moment().format('lll'),
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
         flaggedAt : "-",
     },
     {
@@ -105,8 +105,8 @@ const data = [
             icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount popup signup side page icon.svg",
             header: "Sports Exclusives",
         },
-        createdAt: moment().format('lll'),
-        flaggedAt: moment().format('lll'),
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
+        flaggedAt: moment().format('DD MMM, YYYY HH:mm'),
     },
     {
         fullName: "kartik",
@@ -116,7 +116,7 @@ const data = [
             icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount popup icon.svg",
             header: "Sports Exclusives",
         },
-        createdAt: moment().format('lll'),
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
         flaggedAt : "-",
     },
     {
@@ -127,7 +127,7 @@ const data = [
             icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount banner Side Popup icon.svg",
             header: "Sports Exclusives",
         },
-        createdAt: moment().format('lll'),
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
         flaggedAt : "-",
     },
     {
@@ -138,7 +138,7 @@ const data = [
             icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount banner Section icon.svg",
             header: "Sports Exclusives",
         },
-        createdAt: moment().format('lll'),
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
         flaggedAt : "-",
     },
     {
@@ -149,10 +149,97 @@ const data = [
             icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount banner Section icon.svg",
             header: "Sports Exclusives",
         },
-        createdAt: moment().format('lll'),
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
+        flaggedAt: moment().format('DD MMM, YYYY HH:mm'),
+    },
+    {
+        fullName: "kartik",
+        status: "Pending",
+        category: "Marketing",
+        usecase: {
+            icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount popup icon.svg",
+            header: "Sports Exclusives",
+        },
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
         flaggedAt : "-",
     },
-   
+    {
+        fullName: "kartik",
+        status: "Scheduled",
+        category: "Utility",
+        usecase: {
+            icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount banner Side Popup icon.svg",
+            header: "Sports Exclusives",
+        },
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
+        flaggedAt : "-",
+    },
+    {
+        fullName: "kartik",
+        status: "Rejected",
+        category: "Marketing",
+        usecase: {
+            icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount banner Section icon.svg",
+            header: "Sports Exclusives",
+        },
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
+        flaggedAt : "-",
+    },
+    {
+        fullName: "kartik",
+        status: "Rejected",
+        category: "Utility",
+        usecase: {
+            icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount banner Section icon.svg",
+            header: "Sports Exclusives",
+        },
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
+        flaggedAt: moment().format('DD MMM, YYYY HH:mm'),
+    },
+    {
+        fullName: "kartik",
+        status: "Pending",
+        category: "Marketing",
+        usecase: {
+            icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount popup icon.svg",
+            header: "Sports Exclusives",
+        },
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
+        flaggedAt : "-",
+    },
+    {
+        fullName: "kartik",
+        status: "Scheduled",
+        category: "Utility",
+        usecase: {
+            icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount banner Side Popup icon.svg",
+            header: "Sports Exclusives",
+        },
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
+        flaggedAt : "-",
+    },
+    {
+        fullName: "kartik",
+        status: "Rejected",
+        category: "Marketing",
+        usecase: {
+            icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount banner Section icon.svg",
+            header: "Sports Exclusives",
+        },
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
+        flaggedAt : "-",
+    },
+    {
+        fullName: "kartik",
+        status: "Rejected",
+        category: "Utility",
+        usecase: {
+            icon: "/attryb-ui/assets/icons/table/use-case-icons/Discount banner Section icon.svg",
+            header: "Sports Exclusives",
+        },
+        createdAt: moment().format('DD MMM, YYYY HH:mm'),
+        flaggedAt: moment().format('DD MMM, YYYY HH:mm'),
+    }
 ];
 
 const handleClick = (e, item) => {
