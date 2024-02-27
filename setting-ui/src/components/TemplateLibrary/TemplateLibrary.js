@@ -42,8 +42,8 @@ const columns = [
         key: "category",
         title: "Category",
         // style: { width: 100 },
-        style:{whiteSpace: "nowrap" , textAlign: "center"},
-        headerStyle: { textAlign: "center"},
+        style:{whiteSpace: "nowrap"},
+        // headerStyle: { textAlign: "center"},
         render: (_, { category }) => (
           <>
             {category}
@@ -80,7 +80,7 @@ const data = [
         status: "Approved",
         category: "Marketing",
         usecase: {
-            icon: "/attryb-ui/assets/icons/table/use-case-icons/Recently viewed icon.svg",
+            icon: "/attryb-ui/assets/icons/table/use-case-icons/Free shipping banner icon.svg",
             header: "Mother's Day",
         },
         createdAt: moment().format('DD MMM, YYYY HH:mm'),

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import TemplateLibrary from '../TemplateLibrary/TemplateLibrary'
 import { VscAdd } from "react-icons/vsc";
+import Chart from '../Chart/Chart';
 
 import "./TemplateContainer.css"
 import Header from '../Header/Header'
@@ -23,6 +24,7 @@ const TemplateContainer = () => {
                         </div>
                     </div>
                 </div>
+                <Chart/>
                 <TemplateLibrary />
             </div>
 

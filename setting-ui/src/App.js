@@ -1,12 +1,15 @@
 import './App.css';
-import DocSidebar from './components/DocSidebar/DocSidebar';
-import TemplateContainer from './components/TemplateContainer/TemplateContainer';
+import Banner from './components/Banner/Banner';
+// import Navbar from './components/Navbar/Navbar'
 
 function App() {
+  const onClick = () =>{
+    console.log('press exit button');
+  }
   return (
      <div className='setting-page'>
-      <DocSidebar/>
-      <TemplateContainer/>
+      {/* <Navbar templateName='Campaign Name'/> */}
+      <Banner onClick={onClick}/>
      </div>
   );
 }

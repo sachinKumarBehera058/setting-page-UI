@@ -1,4 +1,66 @@
-.nav-bar {
-    height: 4.5rem;
-    border-bottom: 1px solid #EAECF0;
+.navbar-wrapper{
+    display: flex;
+    height: 4rem;
+    width: 100%;
+}
+
+.navbar-wrapper-left{
+    height: 4rem;
+    width: 4rem;
+    background-color: #040E20;
+    border-right: 0.5px solid #667085;
+    padding: 1.5rem ;
+    align-content: center;
+}
+
+.navbar-wrapper-left-icon{
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+.navbar-wrapper-left-icon img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navbar-wrapper-right{
+    width: 100%;
+    height: 4rem;
+    background-color: #040E20;
+
+}
+
+.Navbar {
+  width: 100%;
+  position: relative !important;
+  background-color: #040E20!important;
+  margin: 0 !important;
+  padding: 1.5rem ;
+  height: 4.05rem !important;
+}
+
+.navbarLeftSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarLeftSection-logo{
+  color: #F2F4F7;
+  cursor: pointer;
+}
+
+.navbarRightSection{
+    display: flex;
+}
+
+.navbar-right-container-wrapper{
+    padding: 0px !important;
+}
+
+#button2{
+    margin-left: 17px;
+    margin-right: 7px;
 }

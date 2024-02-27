@@ -1,23 +1,24 @@
 .sidebar-list-item-box-content-info {
-    width: 15.625rem;
-    height: 2.5rem;
-    border-radius: 0.375rem;
+    border-radius: 6px;
     gap: 0.5rem;
     padding: 0.5rem 0.75rem;
     margin-bottom: 0.5rem;
 }
 
 .sidebar-list-item-box-content-info-innerbox {
-    width: 14.125rem;
-    height: 1.5rem;
+    width: 100%;
     gap: 0.75rem;
     display: flex;
-    /* background-color: #F9FAFB; */
 }
 
-.sidebar-list-item-box-content-info-innerbox-img {
+.sidebar-list-item-box-content-info-innerbox-icon {
     height: 1.5rem;
     width: 1.5rem;
+}
+
+.sidebar-list-item-box-content-info-innerbox-icon img{
+    height: 100%;
+    width: 100%;
 }
 
 .sidebar-list-item-box-content-info-innerbox-text {

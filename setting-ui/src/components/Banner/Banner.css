@@ -1,0 +1,30 @@
+.Navbar  {
+    background-color: #040E20 !important;
+    height: 64px;
+    padding: 16px !important;
+    gap: 16px;
+}
+
+.navbar-left-section{
+    margin: 16px;
+    color: white;
+    gap: 84px;
+}
+
+.navbar-right-container-wrapper{
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-banner-right{
+    height: 24px;
+    width: 24px;
+}
+
+.navbar-banner-right-img{
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+}
