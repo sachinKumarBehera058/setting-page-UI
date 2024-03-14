@@ -24,7 +24,6 @@ const TemplateContainer = () => {
                         </div>
                     </div>
                 </div>
-                <Chart/>
                 <TemplateLibrary />
             </div>
 

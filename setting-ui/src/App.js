@@ -1,6 +1,7 @@
 import './App.css';
-import Banner from './components/Banner/Banner';
-// import Navbar from './components/Navbar/Navbar'
+import DocSidebar from './components/DocSidebar/DocSidebar';
+
+import TemplateContainer from './components/TemplateContainer/TemplateContainer'
 
 function App() {
   const onClick = () =>{
@@ -8,8 +9,10 @@ function App() {
   }
   return (
      <div className='setting-page'>
-      {/* <Navbar templateName='Campaign Name'/> */}
-      <Banner onClick={onClick}/>
+      <DocSidebar/>
+      <TemplateContainer/>
+      
+  
      </div>
   );
 }

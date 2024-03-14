@@ -125,7 +125,7 @@ const DocSidebar = () => {
                 handleItemOnClick={() => { }}
                 supportCallback={handleSupportCallback}
             />
-            <div className='sidebar-list-item'>
+            {/* <div className='sidebar-list-item'>
                 <div className='sidebar-list-item-box'>
                     <div className='sidebar-list-item-box-heading'>
                         <div className='sidebar-list-item-box-heading-text display-xs--md'>Settings</div>
@@ -136,7 +136,7 @@ const DocSidebar = () => {
                         ))}
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* <NavbarListItem  logo={logo1} title={'Personal Info'} /> */}
         </div>
